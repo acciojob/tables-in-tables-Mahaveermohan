@@ -1,12 +1,20 @@
-
-/* Your CSS Code here. */
- table, th, td {
-            border: 1px solid black;
+   table {
             border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 2px solid black;
             padding: 10px;
             text-align: center;
         }
-        .black-cell {
+        .nested-table {
+            width: 100%;
+        }
+        .black-bg {
             background-color: black;
             color: white;
+        }
+        a {
+            color: blue;
+            text-decoration: underline;
         }
